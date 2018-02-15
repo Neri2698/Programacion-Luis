@@ -1,0 +1,28 @@
+/***********************************
+DosPalabrasPorTeclado.java
+
+Luis Uriel Victoriano Juarez
+
+ THis program
+ **********************************/
+ import java.util.Scanner;
+
+ public class DosPalabrasPorTeclado{
+   public static void main(String[] args) {
+     Scanner A = new Scanner (System.in);
+     String palabra1;
+     String palabra2;
+
+     System.out.println("Ingresa la primera palabra");
+     palabra1= A.nextLine();
+
+     System.out.println("Ingresa la segunda palabra");
+     palabra2 = A.nextLine();
+
+     if ( palabra1.equals(palabra2) ) {
+        System.out.println("Las palabras son iguales");
+     }else
+     System.out.println("Las palabras no son iguales");
+
+   }
+ }
